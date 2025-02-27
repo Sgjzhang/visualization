@@ -7,6 +7,48 @@
 - During every class, follow along with sample code from the slides. All code that you should be running in Python is formatted as follows:
   
   > If code in a slide looks like this, you should be running it to generate results.
+  #load libraries
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+np.random.seed(613)
+x = np.arange(50)
+y = np.random.randint(0, 100,50)
+fig, ax = plt.subplots(figsize=(5, 3))
+#ax.scatter(x,y)
+#ax.bar(x,y)
+#ax.plot(x,y)
+ax.hist(y)
+font1 = {'family':'sans-serif','color':'blue','size':20}
+font2 = {'family':'monospace','color':'green','size':14}
+
+
+fig, ax = plt.subplots(figsize=(5, 3))
+ax.plot(x,y)
+
+ax.set_title('Total growth over time', fontdict = font1, loc = 'left')
+ax.set_ylabel('Total growth', fontdict = font2)
+ax.set_xlabel('Years since start', fontdict = font2)
+plt.show()
+
+fig, ax = plt.subplots(figsize=(5, 3))
+ax.scatter( x,y,
+            marker='*', 
+            color = "indigo") 
+fig, ax = plt.subplots(figsize=(5, 3))
+ax.plot(x,y,
+        marker='*',
+        color = '#7425b9',
+        linestyle = '--',
+        linewidth = 2,
+        markersize = 12,
+        markeredgecolor = '#fa9359',
+        markerfacecolor = '#000000')
+ax.grid(axis = 'y',
+        color = 'blue',
+        linewidth = 2,
+        linestyle = 'dotted')
+
 
 - When there are individual or group activities in submodules, make notes of answers and key points from discussions
 - Following each lesson with code, submit a document (either .py or a Jupyter notebook) containing the functioning code from that day's lesson, along with any written notes or comments.
