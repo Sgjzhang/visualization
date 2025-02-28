@@ -50,6 +50,15 @@ ax.grid(axis = 'y',
         linestyle = 'dotted')
 
 
+y2_sd = np.std(y2)
+fig, ax = plt.subplots(figsize=(7, 3))
+ax.plot(x, y2, color = "red")
+ax.errorbar(x, y2, yerr = y2_sd, fmt = "none",
+            ecolor= "indigo",
+            elinewidth= 4,
+            capsize = 6,
+            capthick= 4)
+
 - When there are individual or group activities in submodules, make notes of answers and key points from discussions
 - Following each lesson with code, submit a document (either .py or a Jupyter notebook) containing the functioning code from that day's lesson, along with any written notes or comments.
 
