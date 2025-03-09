@@ -11,23 +11,26 @@
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
       Your answer...
-
-
-
-
-
-
-
+Bad visualization:https://100.datavizproject.com/data-type/viz16/
+    This is a radial bar chart. It's not a good choice for representing the data.
+    1. hard to compare bar lengths. The bars start from different inner positions, and extend outward from the center, makeing it harder to compart values.
+    2.Unnecessary Complexity and Better alternatives available. A regular bar chart is good enough and easier to read with the same data.
+    3. Mislenading representation. The bars start from different inner positions, may mislead viewers rather than inform them.
+Good visualization: https://public.tableau.com/app/profile/israel.ayo/viz/SuperstoreSalesDashboard_17403964185480/KPIsSummary
+    This dashboard is a good visualization, it shows the key business data in a clear, structured manner.
+    1. Line charts are used for trends over time, Bar charts provide clear comparisons across categories or regions.
+    color coding helps differentiate performance meterics withour being overwhelming.
+    2. The dashboard highlights KPI in a simple and easy-to-ready- format. Each KPI is distinct and well-spaced, reducing cognitive overload.
+    3. It sarting with high-level KPIs at top and breaking down into details. Different sections are well-aligned, making it easy for users to navigate.
       ```
     - How could this data visualization have been improved?  
       ```
       Your answer...
-
-
-
-
-
-
+    For radial bar chart, we should use a standard bar chart instead, which would be easier to interpret the data.
+    We should also place labels horizontally to make them easy to read and avoid confusion.
+    We can use better color contrast, as the colors are too similar. we can adjust the plaette to improve readability.
+    We Can remove unnecessary elements that do not contribute to understanding the date.
+    we can try to use consistent scaling to ensure that differences in values are accurately represented in a way that aligns with how we naturally interpret size and length.
       
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
